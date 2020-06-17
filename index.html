@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rotorical Baseball Leage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <style>
+          .container {
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          .myHeader {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+            font-weight: bold;
+            background-color: green;
+            color: white;
+            z-index: 5;
+          }
+
+          #landing_header {
+            margin-top: -100px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: -1;
+            max-width: 1200px;
+          }
+
+          #landing_footer {
+            margin-top: 50px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: -1;
+            max-width: 1200px;
+          }
+
+          #xkcd1 {
+            max-width:227px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+
+          #pickTeamButton {
+            margin: 30px;
+          }
+
+          p {
+              font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+            }
+
+        </style>
+    </head>
+
+    <body>
+      <div class="myHeader">
+          <nav class="navbar fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">Rotorical Baseball League</a>
+          </nav>
+      </div>
+      <img src="landing_header.jpg" id="landing_header">
+      <div class="container">
+        <p class="col-lg-12 col-sm-12"><b>What</b> This is the home of the Rotorical Baseball League where I hope to host a 'Fantasy' Fantasy Baseball Season with simulated results for any qualified batter since 1990. The "Roto" of Rotorical comes from the 5 classic rotisserie baseball categories we'll using for scoring. The rest is from rhetoric - clever language that <b>sounds good but</b> is not sincere or <b>has no real meaning</b>.</p>
+        <p class="col-lg-12 col-sm-12"><b>Why</b> There's no baseball. I miss baseball and know I'm not the only one. (I also wanted to learn how sports simulations work.)</p>
+        <p class="col-lg-12 col-sm-12"><b>When</b> Mondays and Thursdays for an indefinite number of weeks. I'm going to aim to run the script twice a week at 9pm with results posted soon after.</p>
+        <p class="col-lg-9 col-sm-12 float-left order-4"><b>Who</b> "Call your friends, call your neighbors" Anybody and everybody is welcome to play. Share the link with friends and family.</p>
+        <p class="col-lg-9 col-sm-12 float-left order-6"><b>How</b> See the rules here PLACEHOLDER and details about how the simulation works here: PLACEHOLDER 2.</p>
+        <p class="col-lg-9 col-sm-12 float-left order-7"><b>Also...</b> This is for fun. Please don't be mad at me if something breaks, your team doesn't do well, or I post something a bit late. I'm making all of this up as we go so hopefully it (1) works and (2) provides a little bit of respite from the lack of baseball, both the real and the fantasy kind.</p>
+        <img src="https://imgs.xkcd.com/comics/sports.png" id="xkcd1" class="col-lg-12 col-sm-12 order-5">
+        <p></p>
+      </div>
+      <div class="text-center" id="pickTeamButton">
+        <a href="pick_team.html" role="button" class="btn btn-dark" id=pickTeamButton>Pick a team</a>
+      </div>
+
+      <img src="landing_footer.jpg" id="landing_footer">
+    </body>
+</html>
