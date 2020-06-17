@@ -1,0 +1,76 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+table td:nth-child(n+19){  /* this will go to the 2nd column of a table directly */
+  text-align: right;
+}
+
+#indextable .floater {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+th {
+  background-color: #bbb;
+  color: black;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myHeader {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  z-index: 5;
+}
+
+#landing_header {
+  margin-top: -100px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  max-width: 1200px;
+}
+
+#landing_footer {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  max-width: 1200px;
+}
+
+p {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  }
